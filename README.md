@@ -6,7 +6,7 @@ While nothing is completely without risk, federal agencies require systems to re
 
 [NIST Special Publication (SP) 800-53 Revision 4](http://csrc.nist.gov/groups/SMA/fisma/controls.html) lists various control baselines - groupings of both technical and organizational security controls. These control baselines change depending on how the system has been [categorized](http://csrc.nist.gov/groups/SMA/fisma/categorization.html). Implementing, documenting, and assessing these controls on a system of even moderate complexity can be incredibly time consuming and prone to error.
 
-[18F](https://18F.gsa.gov), a digital services delivery team within the [General Services Administrationn](http://www.gsa.gov) (GSA), is invested in making this process more efficient and effective, while radically reducing the time necessary to get an ATO. One way to increase both quality and speed is to heavily reuse pre-approved components in the system.
+[18F](https://18F.gsa.gov), a digital services delivery team within the [General Services Administration](http://www.gsa.gov) (GSA), is invested in making this process more efficient and effective, while radically reducing the time necessary to get an ATO. One way to increase both quality and speed is to heavily reuse pre-approved components in the system.
 
 ## A community project
 
@@ -28,7 +28,7 @@ This work presumes the system is deployed on cloud infrastructure that has a [Fe
 
 FedRAMP pre-approves cloud infrastructure as meeting NIST controls. Many of the NIST controls assumed the agency still has physical control to the servers, or hypervisor level access.
 
-Increasingly, these controls are instead implemented by [vendors providing Infrastructure as a Service (IaaS)](http://cloud.cio.gov/fedramp/cloud-systems). FedRAMP, along with an accredited third-party assessor, ensures the vendor's controls meet Federal guidelines. An example of a FedRAMP control can be found in NIST 800-53 under _PE-2 (2): Physical Access Authorizations - Two Forms of Identification_. In a cloud environment, the agency cannot access the physical servers, so this control must be implemented by the vendor.
+Increasingly, these controls are instead implemented by [vendors providing Infrastructure as a Service (IaaS)](http://cloud.cio.gov/fedramp/cloud-systems). FedRAMP, along with an accredited third-party assessor, ensures the vendor's controls meet federal guidelines. An example of a FedRAMP control can be found in NIST 800-53 under _PE-2 (2): Physical Access Authorizations - Two Forms of Identification_. In a cloud environment, the agency cannot access the physical servers, so this control must be implemented by the vendor.
 
 ### Continuous monitoring and a team where everyone is responsible
 
@@ -46,7 +46,7 @@ Once an initial re-assessment has been completed, agencies should consider the u
 
 ## Infrastructure as Code
 
-We believe anyone should be able to quickly re-engineer a secure component, without having to rely on a golden master image from 18F or any other Federal technology team. To that end, we'll represent Infrastructure as Code (IaC) wherever possible. We're really excited to work with the community to create a thriving ecosystem in this space, without any major vendor or framework lock-ins.
+We believe anyone should be able to quickly re-engineer a secure component, without having to rely on a golden master image from 18F or any other federal technology team. To that end, we'll represent Infrastructure as Code (IaC) wherever possible. We're really excited to work with the community to create a thriving ecosystem in this space, without any major vendor or framework lock-ins.
 
 ## Free to use
 
