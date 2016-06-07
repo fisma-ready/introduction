@@ -16,7 +16,7 @@ If you're looking for systems and components that have received a full cybersecu
 
 ## Security, not obscurity
 
-We believe that our systems will be safer if we this work in the open. It's a simple mathematical reality that there will always be more security expertise outside of our team than within it. The only way to stay ahead of 21st century threats is to utilize the greatest amount of talent possible via transparent collaboration. Obscurity is the weakest of all security controls and must always be considered in a context of net security trade-offs. Our _overall_ security is greatly increased by working with the community to discover unknown flaws or creative improvements. 
+We believe that our systems will be safer if we work in the open. It's a simple mathematical reality that there will always be more security expertise outside of our team than within it. The only way to stay ahead of 21st century threats is to utilize the greatest amount of talent possible via transparent collaboration. Obscurity is the weakest of all security controls and must always be considered in a context of net security trade-offs. Our _overall_ security is greatly increased by working with the community to discover unknown flaws and creative improvements. 
 
 ## Considerations and prerequisites
 
