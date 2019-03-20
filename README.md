@@ -12,7 +12,7 @@ While nothing is completely without risk, federal agencies require systems to re
 
 **FISMA Ready** is a community run project. While 18F is investing resources into starting the community, the intention is to run FISMA Ready via open and collaborative principles, with a diverse group of contributors participating and leading the way forward. We'll soon be posting more about our outreach initiatives and how we intend to moderate and manage the community. Keep an eye on the [18F news feed](https://18f.gsa.gov/news/) for official updates.
 
-If you're looking for systems and components that have received a full cybersecurity assessment by a third-party, GSA provides the [FedRAMP program](http://cloud.cio.gov/fedramp) and a [list of cloud service providers that have achieved an authorization](http://cloud.cio.gov/fedramp/cloud-systems).
+If you're looking for systems and components that have received a full cybersecurity assessment by a third-party, GSA provides the [FedRAMP program](https://fedramp.gov) and a [list of cloud service providers that have achieved an authorization](https://marketplace.fedramp.gov/).
 
 ## Security, not obscurity
 
@@ -24,11 +24,11 @@ Before starting to use FISMA Ready components, implement the following best prac
 
 ### Secure your cloud infrastructure
 
-This work presumes the system is deployed on cloud infrastructure that has a [FedRAMP](http://cloud.cio.gov/fedramp) authorization.
+This work presumes the system is deployed on cloud infrastructure that has a [FedRAMP](https://fedramp.gov) authorization.
 
 FedRAMP pre-approves cloud infrastructure as meeting NIST controls. Many of the NIST controls assumed the agency still has physical control to the servers, or hypervisor level access.
 
-Increasingly, these controls are instead implemented by [vendors providing Infrastructure as a Service (IaaS)](http://cloud.cio.gov/fedramp/cloud-systems). FedRAMP, along with an accredited third-party assessor, ensures the vendor's controls meet federal guidelines. An example of a FedRAMP control can be found in NIST 800-53 under _PE-2 (2): Physical Access Authorizations - Two Forms of Identification_. In a cloud environment, the agency cannot access the physical servers, so this control must be implemented by the vendor.
+Increasingly, these controls are instead implemented by [vendors providing Infrastructure as a Service (IaaS)](https://marketplace.fedramp.gov/#/products?sort=productName&serviceModels=IaaS;IaaS,%20PaaS;IaaS,%20PaaS,%20SaaS;IaaS,%20SaaS). FedRAMP, along with an accredited third-party assessor, ensures the vendor's controls meet federal guidelines. An example of a FedRAMP control can be found in NIST 800-53 under _PE-2 (2): Physical Access Authorizations - Two Forms of Identification_. In a cloud environment, the agency cannot access the physical servers, so this control must be implemented by the vendor.
 
 ### Continuous monitoring and a team where everyone is responsible
 
